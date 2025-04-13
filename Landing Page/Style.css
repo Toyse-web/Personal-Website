@@ -1,0 +1,207 @@
+
+.nav-bar {
+    background: linear-gradient(300deg, #578FCA40, #3674B5, #3674B5);
+    background-size: 180% 10%;
+    animation: gradient-animation 5s ease infinite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 1350px;
+    height: 70px;
+    margin-top: -10px;
+    margin-left: -8px;
+}
+
+@keyframes gradient-animation {
+    10% {
+        background-position: 20% 50%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 10% 50%;
+    }
+}
+
+.main-container {
+    margin: 0;
+}
+
+.nav {
+    font-size: 20px;
+    color: #efefee;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #efefee;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 0 10px;
+    background-color: #efe;
+}
+
+.logo {
+    margin-left: -100px;
+    font-size: 30px;
+    margin-top: 15px;
+    color: #efefee;
+}
+
+.get-started {
+    background: linear-gradient(300deg, #578FCA, blue);
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+h1{
+    color: blue;
+    font-weight: bolder;
+    margin-top: 50px;
+    font-size: 7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text {
+    color: blue;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+    margin-left: 50px;
+    margin-top: -150px;
+    mix-blend-mode: multiply;
+}
+
+.info {
+    margin-top: -20px;
+    background: linear-gradient(300deg, #578FCA, blue);
+    font-size: 20px;
+    font-family: "Caveat", serif;
+    color: #efefee;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 3px;
+    border: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    h1{
+        color: blue;
+        font-weight: bolder;
+        margin-top: 30px;
+        font-size: 7rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+        
+    @keyframes gradient-animation {
+        10% {
+            background-position: 20% 50%;
+        }
+    
+        50% {
+            background-position: 100% 100%;
+        }
+    
+        100% {
+            background-position: 10% 50%;
+        }
+    }
+
+    .nav-bar {
+        background: linear-gradient(300deg, #578FCA40, #3674B5, #3674B5);
+        background-size: 180% 10%;
+        animation: gradient-animation 5s ease infinite;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        width: 103%;
+        height: 50px;
+        margin-right: 0;
+        padding: 0;
+        margin-top: -10px;
+        margin-left: -8px;
+    }
+
+    .nav {
+        font-size: 15px;
+        color: #efefee;
+        font-family: sans-serif;
+        margin-top: 15px;
+    }
+
+    .get-started {
+        background: linear-gradient(300deg, #578FCA, blue);
+        border-radius: 20px;
+        width: 100px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: none;
+    }
+
+    .square {
+        width: 30px;
+        height: 30px;
+        margin: 10px 0 0 10px;
+        background-color: #efe;
+    }
+    
+    .logo {
+        margin-left: -20px;
+        font-size: 20px;
+        margin-top: 15px;
+        color: #efefee;
+    }
+
+    .container {
+        display: block;
+        float: left;
+    }
+
+    img {
+        mix-blend-mode: multiply;
+        width: 450px;
+        height: 500px;
+        margin: -300px 0 100px;
+    }
+
+    .text {
+        color: blue;
+        font-family: sans-serif;
+        font-size: 20px;
+        display: inline;
+        width: 350px;       
+    }
+  }

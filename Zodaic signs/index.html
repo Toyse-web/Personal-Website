@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodaic Sign</title>
+</head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 10px;
+        color: #efefef;
+        font-family: sans-serif;
+        font-size: 100px;
+    }
+
+    body {
+        background-color: #333;
+    }
+
+    #month {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .month {
+        width: 300px;
+        height: 30px;
+        font-size: 1.4em;
+        border-radius: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .date {
+        width: 50px;
+        height: 30px;
+        border-radius: 50px;
+        font-family: sans-serif;
+        font-size: 1.5em;
+        padding-left: 10px;
+        border: 0;
+        margin-left: 30px;
+    }
+
+    .sign-checker {
+        width: 100px;
+        height: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: sans-serif;
+        border: none;
+        cursor: pointer;
+    }
+
+    div {
+        width: 500px;
+        height: 50px;
+        background-color: #efefef;
+        border-radius: 10px;
+        color: #000;
+        margin-top: 20px;
+        margin-left: 430px;
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+        font-family: sans-serif;
+    }
+
+    @media (max-width: 600px) {
+        h1 {
+        text-align: center;
+        margin-top: 10px;
+        color: #efefef;
+        font-family: sans-serif;
+        font-size: 50px;
+    }
+
+    div {
+        width: 250px;
+        color: #000;
+        margin-left: 150px;
+        text-align: center;
+        font-size: 20px;
+        padding: 8px;
+        font-family: sans-serif;
+    }
+
+    .month {
+        width: 200px;
+        height: 30px;
+        font-size: 0.9em;
+        border-radius: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .date {
+        width: 40px;
+        height: 30px;
+        border-radius: 50px;
+        font-family: sans-serif;
+        font-size: 1em;
+        padding-left: 7px;
+        border: 0;
+        margin-left: 20px;
+    }
+
+    .sign-checker {
+        width: 80px;
+        height: 30px;
+        margin-left: 20px;
+        font-size: 10px;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: sans-serif;
+        border: none;
+        cursor: pointer;
+    }
+
+    }
+
+</style>
+<body>
+    <h1>Zodiac Sign</h1>
+
+
+    <div>Input your details below to check your Zodiac Sign</div>
+    <section id="month">
+        <select name="month" id="" class="month">
+            <option value="birthimonth">Choose your birth month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        
+        </select>
+
+        <input type="number" class="date">
+
+        <button class="sign-checker">Check Sign</button>
+
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+// let userMonth = prompt("Enter your Month:");
+
+// let userDate = prompt("Enter your Date");
+
+// function zodaicSignChecker() {
+
+//     // January
+// if (userMonth === "January" && userDate <= 19) {
+//     alert("Your Zodaic sign is Capricon");
+// } else if (userMonth === "January" && userDate <=31) {
+//     alert("Your Zodaic sign is Aquarius");
+
+//     // February
+// } else if (userMonth === "February" && userDate <= 18) {
+//     alert("Your Zodaic sign is Aquarius");
+// } else if (userMonth === "February" && userDate <=29) {
+//     alert("Your Zodaic sign is Pisces");
+
+//     // March
+// } else if (userMonth === "March" && userDate <= 20) {
+//     alert("Your Zodaic sign is Pisces");
+// } else if (userMonth === "March" && userDate <=31) {
+//     alert("Your Zodaic sign is Aries");
+
+//     // April
+// } else if (userMonth === "April" && userDate <= 19) {
+//     alert("Your Zodaic sign is Aries");
+// } else if (userMonth === "April" && userDate <= 30) {
+//     alert("Your Zodaic sign is Taurus");
+
+//     // May
+// } else if (userMonth === "May" && userDate <= 20) {
+//     alert("Your Zodaic sign is Taurus");
+// } else if (userMonth === "May" && userDate <= 31) {
+//     alert("Your Zodaic sign is Gemini");
+
+//     // June
+// } else if (userMonth === "June" && userDate <= 20) {
+//     alert("Your Zodaic sign is Gemini");
+// } else if (userMonth === "June" && userDate <= 30) {
+//     alert("Your Zodaic sign is Cancer");
+
+//     // July
+// } else if (userMonth === "July" && userDate <= 22) {
+//     alert("Your Zodaic sign is Cancer");
+// } else if (userMonth === "July" && userDate <= 31) {
+//     alert("Your Zodaic sign is Leo");
+
+//     // August
+// } else if (userMonth === "August" && userDate <= 22) {
+//     alert("Your Zodaic sign is Leo");
+// } else if (userMonth === "August" && userDate <= 31) {
+//     alert("Your Zodaic sign is Virgo");
+
+//     // September
+// } else if (userMonth === "September" && userDate <= 22) {
+//     alert("Your Zodaic sign is Virgo");
+// } else if (userMonth === "September" && userDate <= 30) {
+//     alert("Your Zodaic sign is Libra");
+
+//     // October
+// } else if (userMonth === "October" && userDate <= 22) {
+//     alert("Your Zodaic sign is Libra");
+// } else if (userMonth === "October" && userDate <= 31) {
+//     alert("Your Zodaic sign is Scorpio");
+
+//     // November
+// } else if (userMonth === "November" && userDate <= 21) {
+//     alert("Your Zodaic sign is Scorpio");
+// } else if (userMonth === "November" && userDate <= 30) {
+//     alert("Your Zodaic sign is Sagittarius");
+
+//     // December
+// } else if (userMonth === "December" && userDate <= 21) {
+//     alert("Your Zodaic sign is Sagittarius");
+// } else if (userMonth === "December" && userDate <= 31) {
+//     alert("Your Zodaic sign is Capricon");
+// } else {
+//     alert("Zodaic Sign not found");
+// }
+
+// }
+
+// zodaicSignChecker();
+
+// let userInput = getUserInput("", );
+
+
+
+
+
+
+// function zodaicSignChecker() {
+
+//     if (response1 === January && response2 <= 19) {
+//         console.log("Your Zodaic sign is Caprison")
+//     } else if (response1 === February && response2 >= 20) {
+//         console.log("Your Zodaic sign is Negative");
+//     }
+
+//     getUserInput();
+// }
