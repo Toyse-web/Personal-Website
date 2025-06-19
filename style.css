@@ -204,6 +204,16 @@ img {
     margin-top: 10px;
 }
 
+.footer-name {
+    font-family: "Permanent Marker", cursive;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
 
 
 
