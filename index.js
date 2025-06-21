@@ -1,10 +1,10 @@
 
 // JavaScript to toggle the mobile menu
-const mobileMenu = document.getElementById("nav-menu");
-const navLinks = document.querySelector(".nav-links");
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("navLinks");
 
-mobileMenu.addEventListener("click", () => {
-    navLinks.classList.toggle("nav-active");
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
 });
 
 // For the typing and deleting effect
@@ -12,16 +12,17 @@ const words = ["Web Developer", "Designer", "Tech Enthusiast"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
+const existWord = "I am a ";
 
 function type() {
     const typingElement = document.querySelector(".typing");
     const currentWord = words[wordIndex];
     
     if (isDeleting) {
-        typingElement.textContent = currentWord.substring(0, charIndex - 1);
+        typingElement.textContent = existWord + currentWord.substring(0, charIndex - 1);
         charIndex--;
     } else {
-        typingElement.textContent = currentWord.substring(0, charIndex + 1);
+        typingElement.textContent = existWord + currentWord.substring(0, charIndex + 1);
         charIndex++;
     }
 
