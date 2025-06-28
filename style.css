@@ -47,7 +47,8 @@ header {
     padding: 15px 20px;
     background-color: #512DA8;
     color: #FFFFFF;
-    /* position: fixed; */
+    position: fixed;
+    width: 100%;
     height: 50px;
     top: 0;
     left: 0;
@@ -89,16 +90,6 @@ nav ul {
     display: flex;
 }
 
-/* nav ul li {
-    margin: 0 30px 0 0;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-} */
-
 nav ul li a:hover {
     color: #B39DDB;
 }
@@ -109,6 +100,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-top: 3rem;
     text-align: center;
     background: linear-gradient(135deg, #d1c4e9, #b3e5fc);
     color: #333;
@@ -143,32 +135,6 @@ nav ul li a:hover {
     margin-left: 15px;
 }
 
-/* @media screen and (max-width: 768px) { */
-    /* nav ul {
-        display: none; Hide the menu
-        flex-direction: column;
-        width: 100%;
-        background-color: #512DA8;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        text-align: center;
-    } */
-
-    /* nav ul li {
-        margin: 15px 0;
-    } */
-
-    /* .menu-toggle {
-        display: flex; Show the hamburger icon
-    } */
-
-    /* Show the menu when active */
-    /* .nav:active {
-        display: flex;
-    }
-} */
-
 @media (max-width: 768px) {
     *{
         margin: 0;
@@ -181,6 +147,10 @@ nav ul li a:hover {
 
     h1 {
         font-size: 25px;
+    }
+
+    #home {
+        margin-top: 3.5rem;
     }
 
     .speech {
@@ -217,12 +187,13 @@ nav ul li a:hover {
   .hamburger {
     display: block;
     background-color: none;
+    margin-left: 16rem;
   }
 
   .nav-links {
     position: absolute;
     top: 60px;
-    left: 0;
+    left: 16rem;
     right: 0;
     flex-direction: column;
     display: none;
